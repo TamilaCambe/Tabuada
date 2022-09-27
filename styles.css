@@ -1,0 +1,91 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(-105deg, #800880, #005f9a, #ffce00);
+        font: normal 12pt Arial;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: white;
+    }
+    
+    section {
+        display: block;
+        z-index: 1;
+        position: relative;
+        background: rgba(249, 242, 242, 0.2);
+        box-shadow: -.63rem -.63rem 1.25rem rgba(0, 0, 0, 0.25);
+        width: 30rem;
+        height: 15.63rem;
+        margin-top: 20px;
+        border-radius: 1rem;
+        padding-top: 1.57rem;
+    }
+    
+    .number-ini {
+        width: 9.38rem;
+        height: 1.88rem;
+        border-radius: .5rem;
+        border: none;
+        padding-left: .5rem;
+    }
+    
+    label {
+        margin-top: 1.57rem;
+        display: inline;
+        font-size: 15pt;
+        margin-left: 3.75rem;
+    }
+    
+    button {
+        display: inline;
+        width: 8.13rem;
+        height: 1.88rem;
+        font-size: 13pt;
+        border-radius: .5rem;
+        border: none;
+    }
+    
+    select {
+        width: 6.25rem;
+        height: 6.25rem;
+        margin-top: .94rem;
+        margin-left: .94rem;
+        margin-bottom: .94rem;
+        border-radius: .5rem;
+        overflow-wrap: break-word;
+    }
+    
+    option {
+        padding: 50%;
+    }
+    
+    button:hover {
+        background: rgb(12, 82, 91);
+        color: beige;
+        border-radius: .32rem;
+        transition-delay: 1ms;
+        cursor: pointer;
+    }
+    
+    footer {
+        text-align: center;
+        font-style: italic;
+        color: white;
+        margin-top: 1.25rem;
+    }
