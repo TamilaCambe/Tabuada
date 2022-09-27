@@ -38,18 +38,19 @@
     }
     
     .number-ini {
-        width: 9.38rem;
+        width: 3rem;
         height: 1.88rem;
         border-radius: .5rem;
         border: none;
         padding-left: .5rem;
+        margin-right: .5rem;
     }
     
     label {
         margin-top: 1.57rem;
         display: inline;
         font-size: 15pt;
-        margin-left: 3.75rem;
+        margin-left: 6rem;
     }
     
     button {
@@ -68,6 +69,7 @@
         margin-left: .94rem;
         margin-bottom: .94rem;
         border-radius: .5rem;
+        padding-left: .5rem;
         overflow-wrap: break-word;
     }
     
