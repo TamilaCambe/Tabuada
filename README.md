@@ -1,4 +1,4 @@
-<h1 align = 'center'> Tabuada! ➕➖✖➗</h1>
+<h1 align = 'center'> Multiplication table ✖</h1>
 <h3 align = 'center'> Another project to train javascript and improve logic. </h1>
  
  ## Demonstration 👀 
