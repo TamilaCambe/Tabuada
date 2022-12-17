@@ -3,9 +3,9 @@
  
  ## Demonstration 👇
  
-  ![Badge](https://github.com/TamilaCambe/Tabuada/blob/main/access/Gif.gif)
+  ![Badge](https://img.shields.io/static/v1?label=DEV&message=Tamila&color=4B0082&style=flat&logo=)
  
- ![homepage]()
+ ![homepage](https://github.com/TamilaCambe/Tabuada/blob/main/access/Gif.gif))
  
  ## Explanation 📑
  
