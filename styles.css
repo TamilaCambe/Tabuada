@@ -32,7 +32,7 @@
         background: rgba(249, 242, 242, 0.2);
         box-shadow: -.63rem -.63rem 1.25rem rgba(0, 0, 0, 0.25);
         width: 30rem;
-        height: 100% margin-top: 20px;
+        margin-top: 20px;
         border-radius: 1rem;
         padding-top: 1.57rem;
     }
@@ -50,7 +50,8 @@
         margin-top: 1.57rem;
         display: inline;
         font-size: 15pt;
-        margin-left: 6rem;
+        margin-left: 3.5rem;
+        color: #fff;
     }
     
     button {
@@ -60,28 +61,38 @@
         font-size: 13pt;
         border-radius: .5rem;
         border: none;
+        background-color: #800880;
+        color: #fff;
+    }
+    
+    button:hover {
+        background: #dcbf15;
+        color: #800880;
+        border-radius: .32rem;
+        transition: .5ms;
+        cursor: pointer;
+    }
+    
+    button:active {
+        background: transparent;
+        transition: .5s;
+        border: solid .1rem #800880;
     }
     
     #isolado {
         display: flex;
         flex-direction: column;
-        width: 6.25rem;
+        width: max-content;
         height: 100%;
-        margin-top: .94rem;
-        margin-left: .94rem;
-        margin-bottom: .94rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
         border-radius: .5rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
         padding-left: .5rem;
+        padding-right: .5rem;
         background: #fff;
-        overflow-wrap: break-word;
-    }
-    
-    button:hover {
-        background: rgb(12, 82, 91);
-        color: beige;
-        border-radius: .32rem;
-        transition-delay: 1ms;
-        cursor: pointer;
     }
     
     footer {
