@@ -25,14 +25,14 @@
     }
     
     section {
-        display: block;
+        display: flex;
+        flex-direction: column;
         z-index: 1;
         position: relative;
         background: rgba(249, 242, 242, 0.2);
         box-shadow: -.63rem -.63rem 1.25rem rgba(0, 0, 0, 0.25);
         width: 30rem;
-        height: 15.63rem;
-        margin-top: 20px;
+        height: 100% margin-top: 20px;
         border-radius: 1rem;
         padding-top: 1.57rem;
     }
@@ -62,19 +62,18 @@
         border: none;
     }
     
-    select {
+    #isolado {
+        display: flex;
+        flex-direction: column;
         width: 6.25rem;
-        height: 6.25rem;
+        height: 100%;
         margin-top: .94rem;
         margin-left: .94rem;
         margin-bottom: .94rem;
         border-radius: .5rem;
         padding-left: .5rem;
+        background: #fff;
         overflow-wrap: break-word;
-    }
-    
-    option {
-        padding: 50%;
     }
     
     button:hover {
